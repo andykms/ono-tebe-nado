@@ -1,1 +1,65 @@
 /* место для вашего кода */
+
+.header {
+  display: grid;
+  grid-template-columns: 454px 332px 240px;
+  padding: 92px 24px 96px 24px;
+}
+
+.logo-black {
+  display: block;
+  height: 105px;
+  width: 148px;
+  justify-self: normal;
+}
+
+.header-menu__list{
+  margin-top: 44px;
+  margin-left: 26.5px;
+  font-family: 'Raleway', 'sans-serif';
+  display: flex;
+  gap: 32.3px;
+}
+
+.header-menu__item{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  list-style: circle;
+  text-decoration: underline;
+  letter-spacing: 1%;
+}
+
+.header-menu__home {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*Меню и все что его касается*/
+.header-info__list{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-info__item{
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 400;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 1%;
+}
+
+/*Лоты и все что его касается*/
+.lots {
+  padding: 179px 24px 146px 24px;
+}
+
+.about {
+  padding: 0 24px 180px 24px;
+}
+
+.footer {
+  padding: 0 50px 88px 50px;
+} 
