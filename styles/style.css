@@ -27,7 +27,7 @@
   line-height: 21.13px;
   list-style: circle;
   text-decoration: underline;
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
 .header-menu__home {
@@ -48,119 +48,119 @@
   list-style: none;
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
+.address {
+  font-style: normal;
+}
 
 /*Заголовок*/
 
-.overlay{
+.overlay {
   background-color: rgb(0 0 0/0.6);
 }
-.cover{
+.cover {
   box-sizing: border-box;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
-.cover__title{
+.cover__title {
   padding: 165px 50px 0 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.accent-span{
-  color:#FFFFFF;
+.accent-span {
+  color: #ffffff;
   font-weight: 700;
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
   line-height: 1.15;
   font-size: 100px;
 }
 
-.text-center{
+.text-center {
   align-self: center;
   line-height: 1;
 }
 
-.text-right{
+.text-right {
   align-self: flex-end;
   line-height: 1;
 }
 
-.letter-space{
-  letter-spacing: 60px;
+.letter-space {
+  letter-spacing: 0.6em;
 }
 
 .letter-space__null {
   letter-spacing: 0;
 }
 
-.letter-space_2{
-  letter-spacing: 2%;
+.letter-space_2 {
+  letter-spacing: 0.02em;
 }
 
-.letter-space_3{
-  letter-spacing: 3%;
+.letter-space_3 {
+  letter-spacing: 0.03em;
 }
 
-.letter-space_-1{
-  letter-spacing: -1%;
+.letter-space_-1 {
+  letter-spacing: -0.01em;
 }
 
-.letter-space_4{
-  letter-spacing: 4%;
+.letter-space_4 {
+  letter-spacing: 0.04em;
 }
 
-.letter-space_1{
-  letter-spacing: 1%;
+.letter-space_1 {
+  letter-spacing: 0.01em;
 }
-.cover__description{
+.cover__description {
   display: flex;
   padding: 135px 50px 51px 78px;
   justify-content: space-between;
   align-items: center;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.cover__description-text{
+.cover__description-text {
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 90%;
   word-spacing: 18.5px;
 }
 
-.cover__description-letter-80{
-  letter-spacing: 80px;
+.cover__description-letter-80 {
+  letter-spacing: 0.8em;
 }
 
-.cover__description-letter-90{
-  letter-spacing: 90px;
+.cover__description-letter-90 {
+  letter-spacing: 0.9em;
 }
 
-.cover__description-letter-110{
-  letter-spacing: 110px;
+.cover__description-letter-110 {
+  letter-spacing: 1.1em;
 }
-.bet-button{
+.bet-button {
   width: 256px;
   height: 51px;
   background: transparent;
-  border:#FFFFFF 1px solid;
+  border: #ffffff 1px solid;
 }
 
-.bet-button__text{
-  color: #FFFFFF;
+.bet-button__text {
+  color: #ffffff;
   font-weight: 500;
   line-height: 25.83px;
   font-size: 22px;
   line-height: 28px;
 }
-
 
 /*Лоты и все что его касается*/
 
@@ -168,53 +168,51 @@
   padding: 179px 24px 146px 24px;
 }
 
-.lots__heading{
+.lots__heading {
   padding-left: 40px;
   margin-bottom: 27px;
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
-  color:#000;
+  color: #000;
 }
 
-.lots__card-list{
+.lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   justify-content: space-between;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 30px;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   padding: 51px 40px 48px 40px;
   height: 563px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  
 }
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;
 }
 
-
-.card__title{
+.card__title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 22px;
@@ -222,16 +220,16 @@
   text-decoration: underline;
 }
 
-.card__text{
+.card__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
 
-.card__text .card__text-span{
-  letter-spacing: 1.3px;
+.card__text .card__text-span {
+  letter-spacing: 0.13em;
 }
-.lots__look-more-link{
+.lots__look-more-link {
   margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
@@ -239,22 +237,21 @@
   text-decoration: underline;
 }
 
-.card__link{
+.card__link {
   height: 100%;
   display: block;
 }
-
 
 .about {
   padding: 0 24px 180px 24px;
 }
 
-.about__column{
+.about__column {
   display: grid;
   grid-template-columns: 359px auto;
 }
 
-.about__logo{
+.about__logo {
   margin-top: 35px;
   margin-left: 47px;
   border-radius: 50%;
@@ -263,14 +260,14 @@
   background-color: #000;
 }
 
-.about__logo-image{
+.about__logo-image {
   display: block;
   margin: auto;
   margin-top: 64px;
   width: 148px;
 }
 
-.about__title{
+.about__title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -279,19 +276,23 @@
   margin-bottom: 100px;
 }
 
-.about__text{
+.about__text {
   display: flex;
   gap: 24px;
   flex-direction: column;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color:#000;
+  color: #000;
+}
+
+.about__text-chapter_1 {
+  letter-spacing: 0.01em;
   margin-right: 5px;
 }
 
-.about__text-chapter_1{
-  letter-spacing: 1%;
+.about__text-chapter_2 {
+  margin-right: 1px;
 }
 .footer {
   padding: 0 50px 88px 50px;
@@ -299,24 +300,23 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.footer-menu .header-menu__item{
+.footer-menu .header-menu__item {
   list-style: none;
 }
-.footer-menu{
+.footer-menu {
   flex-direction: column;
   gap: 0;
   align-items: center;
   margin: 0;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   gap: 48px;
   justify-self: end;
-  
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   display: block;
   width: 48px;
 }
