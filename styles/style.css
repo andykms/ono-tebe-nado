@@ -33,7 +33,7 @@
   list-style: none;
 }
 
-.menu__active .menu-link {
+.link__active {
   text-decoration: none;
 }
 
